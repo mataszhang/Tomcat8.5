@@ -258,6 +258,8 @@ public final class Bootstrap {
 
         Thread.currentThread().setContextClassLoader(catalinaLoader);
 
+        catalinaLoader.loadClass("org.apache.catalina.core.StandardServer");
+
         SecurityClassLoad.securityClassLoad(catalinaLoader);
 
         // Load our startup class and call its process() method
