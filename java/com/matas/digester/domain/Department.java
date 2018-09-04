@@ -13,6 +13,7 @@ import java.util.Map;
 public class Department {
     private String name;
     private String code;
+    private Pc pc;
     private List<User> users = new ArrayList<>();
     private Map<String, String> props = new HashMap<>();
 
@@ -61,8 +62,17 @@ public class Department {
         return "Department{" +
                 "name='" + name + '\'' +
                 ", code='" + code + '\'' +
+                ", pc=" + pc +
                 ", users=" + users +
                 ", props=" + props +
                 '}';
+    }
+
+    public Pc getPc() {
+        return pc;
+    }
+
+    public void setPc(Pc pc) {
+        this.pc = pc;
     }
 }

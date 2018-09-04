@@ -2,8 +2,10 @@
 <department name="测试部门1" code="dep1">
     <user name="用户1" code="user1"/>
     <user name="用户2" code="user2"/>
+    <pc code="1234"/>
     <extension>
         <pname>age</pname>
         <pvalue>18</pvalue>
     </extension>
 </department>
+
