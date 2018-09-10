@@ -149,9 +149,9 @@
 
         <!-- SingleSignOn valve, share authentication between web applications
              Documentation at: /docs/config/valve.html -->
-        <!--
-        <Valve className="org.apache.catalina.authenticator.SingleSignOn" />
-        -->
+
+        <Valve className="com.matas.valve.TestValve" />
+
 
         <!-- Access log processes all example.
              Documentation at: /docs/config/valve.html
